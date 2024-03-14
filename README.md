@@ -1,9 +1,8 @@
-## FiveM vote script for Trackyserver.com (Edited for VORP by ZioMark)
+# FiveM vote script for Trackyserver.com (Edited for VORP by ZioMark)
 
 A simple plugin to allow players to vote and claim rewards for their favourite servers.
 
-	
-#### Installation
+## Installation
 
 Open an account on [Trackyserver.com](https://trackyserver.com/) and add a FiveM server.
 
@@ -11,7 +10,7 @@ Download this script and extract it to your `/resources` folder on your FiveM se
 
 To start the script, add this line ***at the end*** of your resources in server.cfg: `ensure zm_trackyvote`
 
-### Edits to VORP CORE
+## Edits to VORP CORE
  
 vorp_core > server > sv_commands.lua and **add**
 
@@ -27,6 +26,18 @@ vorp_core > server > sv_commands.lua and **add**
     end
 end, false)
 ```
+
+### Edit Language
+
+Go to fxmanifest.lua and edit this
+
+```
+files {
+    "locales/italian.json"
+}
+```
+
+adding the language file you want, you can create as many as you want
 
 #### Configuration
 
