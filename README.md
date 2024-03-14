@@ -2,9 +2,6 @@
 
 A simple plugin to allow players to vote and claim rewards for their favourite servers.
 
-#### Prevents abusive votes
-
-When a player requests their reward with /checkvote, their licence is sent to Trackyserver.com. It is the database identifier (gta license) which is used to check if the player has already vote and received his reward.
 	
 #### Installation
 
@@ -41,7 +38,7 @@ There's only tree server vars needed to set up this resource in `config.lua` fil
 
 `Config.identifier` - If you want your players to vote with Steam on Trackyserver leave this variable to the word **steam**. If your players vote with Discord set this variable to the word **discord**
 
-#### Commands configuration
+#### Commands configuration (CHECK THE FILES TO EDIT YOUR COMMANDS)
 
 In the `config.lua` file you will see a table called `Config.Rewards`.
 This is meant to contain the commands to be triggered when a certain number of votes are reached.
