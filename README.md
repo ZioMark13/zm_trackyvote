@@ -1,12 +1,12 @@
-# FiveM vote script for Trackyserver.com (Edited for VORP by ZioMark)
+# RedM vote script for Trackyserver.com (Edited for VORP by ZioMark)
 
 A simple plugin to allow players to vote and claim rewards for their favourite servers.
 
 ## Installation
 
-Open an account on [Trackyserver.com](https://trackyserver.com/) and add a FiveM server.
+Open an account on [Trackyserver.com](https://trackyserver.com/) and add a RedM server.
 
-Download this script and extract it to your `/resources` folder on your FiveM server.
+Download this script and extract it to your `/resources` folder on your RedM server.
 
 To start the script, add this line ***at the end*** of your resources in server.cfg: `ensure zm_trackyvote`
 
